@@ -1,0 +1,462 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+}
+
+#sec1 {
+
+    height: 60px;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 0 0 15 rgba(0, 0, 0, 0.3);
+}
+
+.div1 {
+
+    height: 50px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+
+    color: blue;
+}
+
+.div2 {
+
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.div3 {
+
+    float: right;
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2 a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.div3 a {
+
+    text-decoration: none;
+}
+
+.div3 button {
+    height: 30px;
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+}
+
+.btn1 {
+    display: flex;
+    background-color: lightblue;
+    width: 200px;
+
+    height: 20px;
+    align-items: center;
+    border-radius: 15px;
+    color: blue;
+
+}
+
+.sec2 {
+
+
+    padding: 50px 30px;
+    background-color: rgb(245, 237, 245);
+}
+
+.sec2 h2 {
+    font-size: 45px;
+}
+
+.sec2div3 {
+    position: relative;
+}
+
+.certificate {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -18px;
+    background: white;
+    left: -15px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+}
+
+.certificate i {
+    background-color: lightgreen;
+    color: green;
+    margin-right: 5px;
+    border-radius: 50%;
+
+
+
+}
+
+
+.img1 {
+    border-radius: 10px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.sec2div1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2div2 p {
+    font-size: 25px;
+}
+
+.sec2div4 {
+
+
+    margin-top: 10px;
+}
+
+#btn2 {
+    background-color: blue;
+    color: white;
+    height: 35px;
+    border-radius: 5%;
+}
+
+#btn3 {
+    background-color: white;
+    color: black;
+    height: 35px;
+    border-radius: 5%;
+    margin-left: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)
+}
+
+.sec3 {
+
+    text-align: center;
+    margin-top: 70px;
+    padding: 0 30px;
+}
+
+#p1 {
+    color: blue;
+}
+
+#p2 {
+    font-size: 40px;
+}
+
+.card1 {
+
+    background-color: white;
+    padding: 20px 30px;
+    height: 16rem;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+#colg {
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    color: white;
+    padding: 10px;
+}
+
+#colv {
+    background-color: rgba(147, 11, 165, 0.831);
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    color: white;
+    padding: 10px;
+}
+
+#colb {
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    color: white;
+    padding: 10px;
+}
+
+.card1 h4 {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.card1 p {
+    text-align: left;
+    padding: 3px;
+}
+
+#tick {
+    display: inline-block;
+
+
+}
+
+.colb {
+    color: blue;
+
+}
+
+.colv {
+    color: rgba(147, 11, 165, 0.831);
+
+}
+
+.colg {
+    color: green;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+
+    margin-top: 30px;
+}
+
+.sec5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.card2 h2 {
+    text-align: center;
+    color: blue;
+}
+
+.sec6div1 {
+    text-align: center;
+}
+
+.sec6 {
+    padding: 60px 30px;
+    background-color: rgb(238, 244, 244);
+}
+
+.stars {
+    color: yellow;
+
+}
+
+.pic img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.pic {
+    display: flex;
+
+}
+
+.card3 {
+    height: 220px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 30px;
+    background-color: white;
+}
+
+.card3 p {
+    padding: 20px 0px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+}
+
+#testimonals {
+    margin-bottom: 40px;
+}
+
+.pic span {
+    display: block;
+
+}
+
+.sec6ldiv {
+    margin-top: 40px;
+    text-align: center;
+    background-image: url(bc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px 23rem;
+    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.sec6ldiv p {
+    padding-top: 10px;
+
+
+}
+
+.enrollbtn {
+    height: 35px;
+    border-radius: 5px;
+    color: blue;
+    width: 200px;
+    margin: 10px 0px;
+}
+
+
+.sec7 {
+    padding: 70px 30px;
+    display: flex;
+
+
+}
+
+.iconcon i {
+
+    height: 42px;
+    width: 42px;
+    border-radius: 5px;
+    padding: 10px;
+
+    margin-right: 10px;
+}
+
+.iconcon {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.iconcon1 i {
+    height: 42px;
+    width: 42px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(238, 244, 244);
+    margin-right: 10px;
+}
+
+.sec7div2 {
+
+    background-color: rgb(237, 243, 245);
+    width: 45%;
+
+    padding: 10px 30px;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.sec7div2 input,
+.sec7div2 textarea,
+.sec7div2 select {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-weight: 600;
+
+}
+
+
+.m {
+    display: flex;
+
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.sec7div1 {
+
+    width: 45%
+}
+
+.sec7div2 button {
+    width: 100%;
+    background: blue;
+    padding: 12px;
+    font-weight: 550px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+
+}
+
+.sec8 {
+    background-color: black;
+    color: white;
+}
+
+.iconcon2 i {
+    height: 42px;
+    width: 42px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(48, 47, 47);
+    margin-right: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+.sec8 {
+    display: flex;
+    padding: 40px 30px;
+    justify-content: space-between;
+}
+
+.sec8 p {
+    color: rgb(63, 62, 62);
+    padding-top: 10px;
+}
+
+.sec8 span {
+    padding-right: 5px;
+    color: rgb(63, 62, 62);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.sec8 button {
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
